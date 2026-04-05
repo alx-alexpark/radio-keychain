@@ -5,6 +5,228 @@
 	(uuid "65af2ef2-b203-4655-89f1-97b5aebc6978")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x03_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Pin"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Pin_1_1"
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -632,6 +854,900 @@
 					(at 0 -2.54 90)
 					(length 0.762)
 					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:K3-2235S-F1"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 9.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "K3-2235S-F1"
+				(at 0 -9.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-SMD_MST22D18G2"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108131830_Korean-Hroparts-Elec-K3-2235S-F1_C223858.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-25℃~+80℃ 10000 times 3.5mm 3.5mm 300mA 6V 9mm Black DPDT Gull Wing Rectangular Columnar Surface Mount,Vertical SMD,9x3.5mm Slide Switches ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C223858"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "Korean Hroparts Elec"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "K3-2235S-F1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "C223858 K3-2235S-F1 Korean Hroparts Elec SW-SMD_6P-K3-2235S-F1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "K3-2235S-F1_0_1"
+				(rectangle
+					(start -6.604 1.778)
+					(end -3.556 0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -6.604 -0.762)
+					(end -3.556 -1.778)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 4.064) (xy -5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.048) (xy -5.08 4.064) (xy 0 4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 3.048) (xy -5.08 1.778) (xy -5.334 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 1.778) (xy -4.826 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.778) (xy -4.826 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.048) (xy -5.08 -1.778) (xy -5.334 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.048) (xy -5.08 -4.064) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -4.064) (xy -5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.524 1.778)
+					(end 1.524 0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.524 -0.762)
+					(end 1.524 -1.778)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 4.572) (xy 0 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.048) (xy 0 1.778) (xy -0.254 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0.254 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.778) (xy 0.254 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.048) (xy 0 -1.778) (xy -0.254 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.556) (xy 0 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -4.572) (xy 0 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.778 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 5.08) (xy 3.81 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -5.08) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.556 1.778)
+					(end 6.604 0.762)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.556 -0.762)
+					(end 6.604 -1.778)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 4.826) (xy 5.08 4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 4.064) (xy 5.08 3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 3.048) (xy 5.08 1.778) (xy 4.826 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 1.778) (xy 5.334 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -1.778) (xy 5.334 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -3.048) (xy 5.08 -1.778) (xy 4.826 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -4.064) (xy 5.08 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -4.826) (xy 5.08 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "A"
+					(at -3.302 4.3815 0)
+					(effects
+						(font
+							(size 2.2932 2.2932)
+						)
+					)
+				)
+				(text "A"
+					(at -3.302 -5.842 0)
+					(effects
+						(font
+							(size 2.2932 2.2932)
+						)
+					)
+				)
+				(text "B"
+					(at 1.524 5.3975 0)
+					(effects
+						(font
+							(size 2.2932 2.2932)
+						)
+					)
+				)
+				(text "B"
+					(at 1.524 -7.0485 0)
+					(effects
+						(font
+							(size 2.2932 2.2932)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 7.62 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "JLCImport:MY-2032-12"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 0 2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MY-2032-12"
+				(at 0 -2 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:BAT-SMD_MY-2032-12"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2012181809_MYOUNG-MY-2032-12_C964833.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "-25~85℃ Battery buckle CR2032 Nickel plated Phosphor bronze - ROHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC" "C964833"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "MYOUNG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part" "MY-2032-12"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BAT-SMD_MY-2032-12 C964833 MY-2032-12 MYOUNG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MY-2032-12_0_1"
+				(polyline
+					(pts
+						(xy -1.27 2.286) (xy -1.27 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 1.27) (xy -0.508 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.286) (xy 0.254 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.27) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2720,6 +3836,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push_45deg"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 3.048 1.016 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push_45deg"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Push_45deg_0_1"
+				(polyline
+					(pts
+						(xy -2.54 2.54) (xy -1.524 1.524) (xy -1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.1684 1.1684)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.54) (xy 2.54 -0.508)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.032 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.143 -1.1938)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 -1.524) (xy 2.54 -2.54) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 2.54 0)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -2.54 180)
+					(length 0)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -3000,8 +4304,8 @@
 		(uuid "14dd607b-19a4-4bac-9b86-5735ef9458d4")
 	)
 	(rectangle
-		(start 217.805 21.59)
-		(end 280.035 44.45)
+		(start 219.075 22.86)
+		(end 281.305 45.72)
 		(stroke
 			(width 0)
 			(type default)
@@ -3048,7 +4352,7 @@
 		(uuid "d923131d-4082-4260-beb0-955c3b893ed3")
 	)
 	(junction
-		(at 262.255 32.385)
+		(at 263.525 33.655)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18073c52-7820-48cb-b14a-754fedff9e14")
@@ -3084,6 +4388,12 @@
 		(uuid "6828f626-d3d1-41fe-8bec-516a242e2329")
 	)
 	(junction
+		(at 176.53 65.405)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b1b36ec-b473-4bbb-b7cc-fee3ed33b378")
+	)
+	(junction
 		(at 168.91 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3100,6 +4410,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "945ecf49-9a11-4f82-921c-438f8eace81b")
+	)
+	(junction
+		(at 191.77 70.485)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a5b518e-ef2f-42fe-ac40-cadcb427e410")
 	)
 	(junction
 		(at 273.05 149.225)
@@ -3130,6 +4446,10 @@
 		(uuid "19963f76-d555-43f0-97db-518961de35a2")
 	)
 	(no_connect
+		(at 176.53 60.325)
+		(uuid "1aff7ff0-5ba9-423c-a448-99100c5e3b70")
+	)
+	(no_connect
 		(at 165.735 104.14)
 		(uuid "235c5e99-2dea-4b74-96da-707767c37d5b")
 	)
@@ -3138,20 +4458,16 @@
 		(uuid "37e7a315-4af8-48fe-99a6-48368c2e2b37")
 	)
 	(no_connect
-		(at 203.835 140.97)
-		(uuid "6b17382d-5335-4bab-bfbe-aa4ed72c149b")
-	)
-	(no_connect
 		(at 183.515 143.51)
 		(uuid "720c6142-5ce1-47b4-b31e-b75bafd8c17e")
 	)
 	(no_connect
-		(at 203.835 143.51)
-		(uuid "7ce7f1df-cb28-4405-9dbc-1e04c3fcc645")
+		(at 191.77 60.325)
+		(uuid "75683c55-a5ea-4a00-a3ae-0b553e2f4f70")
 	)
 	(no_connect
-		(at 203.835 135.89)
-		(uuid "a2c4b8a2-31d4-4027-a8d2-f4c0e12e2c29")
+		(at 203.835 143.51)
+		(uuid "7ce7f1df-cb28-4405-9dbc-1e04c3fcc645")
 	)
 	(no_connect
 		(at 183.515 135.89)
@@ -3174,10 +4490,6 @@
 		(uuid "bfa93c22-5b27-40a2-ad93-f66070944013")
 	)
 	(no_connect
-		(at 203.835 138.43)
-		(uuid "d43112e9-bca6-4543-b61e-8c95f88e5451")
-	)
-	(no_connect
 		(at 263.525 130.81)
 		(uuid "d4706f80-b7ba-4f0a-a3a2-0496e5c590f5")
 	)
@@ -3188,10 +4500,6 @@
 	(no_connect
 		(at 263.525 133.35)
 		(uuid "db41a891-c3ce-4a91-a149-c211d9341e77")
-	)
-	(no_connect
-		(at 203.835 133.35)
-		(uuid "de696d98-c529-460b-8aaf-b1e19f5c6a99")
 	)
 	(no_connect
 		(at 263.525 125.73)
@@ -3216,6 +4524,16 @@
 			(type default)
 		)
 		(uuid "0b90bfc2-4212-4ca9-aefb-829c12dcdd35")
+	)
+	(wire
+		(pts
+			(xy 176.53 70.485) (xy 191.77 70.485)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e5e8583-f33f-4708-8378-da496ada04a0")
 	)
 	(wire
 		(pts
@@ -3329,6 +4647,26 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 149.86) (xy 128.27 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fddf56a-11e8-477d-a420-0dd00abf9b9b")
+	)
+	(wire
+		(pts
+			(xy 208.915 140.97) (xy 203.835 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4111ec57-59e0-4cd8-9c74-2bd341ab4562")
+	)
+	(wire
+		(pts
 			(xy 267.97 94.615) (xy 267.97 97.155)
 		)
 		(stroke
@@ -3339,6 +4677,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.915 138.43) (xy 203.835 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48624fb1-643e-47a0-883c-b3c12834ebe0")
+	)
+	(wire
+		(pts
 			(xy 166.37 101.6) (xy 165.735 101.6)
 		)
 		(stroke
@@ -3346,6 +4694,16 @@
 			(type default)
 		)
 		(uuid "486c2766-0e36-4e59-a132-949b89ccc4fc")
+	)
+	(wire
+		(pts
+			(xy 208.915 133.35) (xy 203.835 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa7d3a9-30fe-4b5b-a7b2-c13c9c69c130")
 	)
 	(wire
 		(pts
@@ -3376,6 +4734,16 @@
 			(type default)
 		)
 		(uuid "520a11a0-ee29-4722-a6e2-8390093ba228")
+	)
+	(wire
+		(pts
+			(xy 208.915 135.89) (xy 203.835 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57732cc6-6633-443a-97ef-16a3729b4f1a")
 	)
 	(wire
 		(pts
@@ -3479,6 +4847,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 170.815) (xy 128.27 170.815)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75fe159a-13e8-4199-888d-2d12116b9af3")
+	)
+	(wire
+		(pts
 			(xy 269.875 123.19) (xy 263.525 123.19)
 		)
 		(stroke
@@ -3489,7 +4867,17 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 32.385) (xy 262.255 32.385)
+			(xy 101.6 173.355) (xy 106.68 173.355)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f1e15d-4fa9-49bf-90cc-c053cddf2a6b")
+	)
+	(wire
+		(pts
+			(xy 262.89 33.655) (xy 263.525 33.655)
 		)
 		(stroke
 			(width 0)
@@ -3529,6 +4917,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 65.405) (xy 191.77 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d726014-ea93-4de0-948f-a292e5b85a12")
+	)
+	(wire
+		(pts
 			(xy 196.85 99.06) (xy 205.105 99.06)
 		)
 		(stroke
@@ -3546,6 +4944,16 @@
 			(type default)
 		)
 		(uuid "8e7e1d77-5d9b-49c1-9d93-c11e9fa32410")
+	)
+	(wire
+		(pts
+			(xy 102.87 151.13) (xy 107.95 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "966d2c9f-fc97-4473-8cc1-ab15e4df4b5b")
 	)
 	(wire
 		(pts
@@ -3579,6 +4987,16 @@
 	)
 	(wire
 		(pts
+			(xy 127 107.95) (xy 115.57 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb0c7ab-7241-4bdf-b63d-0f3303b8e53a")
+	)
+	(wire
+		(pts
 			(xy 263.525 149.225) (xy 263.525 148.59)
 		)
 		(stroke
@@ -3599,7 +5017,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.255 32.385) (xy 269.875 32.385)
+			(xy 263.525 33.655) (xy 271.145 33.655)
 		)
 		(stroke
 			(width 0)
@@ -3709,7 +5127,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.345 32.385) (xy 220.98 32.385)
+			(xy 221.615 33.655) (xy 222.25 33.655)
 		)
 		(stroke
 			(width 0)
@@ -3726,6 +5144,16 @@
 			(type default)
 		)
 		(uuid "ba42cc39-1ce3-4af3-8cbc-d6e4f1ed4c13")
+	)
+	(wire
+		(pts
+			(xy 125.095 105.41) (xy 115.57 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba5cb6a9-7c5a-4e46-b060-1b8aadccde6c")
 	)
 	(wire
 		(pts
@@ -3809,7 +5237,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.065 34.925) (xy 261.62 34.925)
+			(xy 267.335 36.195) (xy 262.89 36.195)
 		)
 		(stroke
 			(width 0)
@@ -3856,6 +5284,16 @@
 			(type default)
 		)
 		(uuid "f02974f2-c3cd-4280-bcc5-09b691058d99")
+	)
+	(wire
+		(pts
+			(xy 172.085 65.405) (xy 176.53 65.405)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62d4e6e-9055-48aa-be12-bf61e2f79cac")
 	)
 	(wire
 		(pts
@@ -3947,6 +5385,16 @@
 		)
 		(uuid "1f015acb-9eec-4579-b544-6d97740a4b20")
 	)
+	(label "PD5"
+		(at 208.915 138.43 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2030b7e7-e1dd-40a8-bb51-c485d0ad1521")
+	)
 	(label "SDA"
 		(at 179.705 128.27 0)
 		(effects
@@ -3987,6 +5435,16 @@
 		)
 		(uuid "376cc490-0188-4c42-af62-6f2224aff6c1")
 	)
+	(label "PD4"
+		(at 208.915 135.89 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "45c2bd61-62c5-4058-9d61-546b1b5d66ff")
+	)
 	(label "L_AUDIO"
 		(at 183.515 96.52 180)
 		(effects
@@ -3996,6 +5454,26 @@
 			(justify right bottom)
 		)
 		(uuid "497c2a19-dc25-4163-a165-a331f3db3a7e")
+	)
+	(label "PD3"
+		(at 208.915 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5091a8fe-19f0-47cf-be95-434174be623a")
+	)
+	(label "PD4"
+		(at 106.68 173.355 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5b2a624e-55e2-4503-bfaf-927da40c1792")
 	)
 	(label "SWDEBUG"
 		(at 213.36 128.27 180)
@@ -4027,6 +5505,26 @@
 		)
 		(uuid "6a069639-8501-4442-a688-0dd9cc167df3")
 	)
+	(label "PD6"
+		(at 208.915 140.97 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6b04a59e-98b3-49af-af74-6b659bb9b08d")
+	)
+	(label "PD3"
+		(at 107.95 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f4f7d16-ee11-4cb7-b09b-d8d6891464f5")
+	)
 	(label "SDA"
 		(at 228.6 79.375 0)
 		(effects
@@ -4046,6 +5544,16 @@
 			(justify left bottom)
 		)
 		(uuid "87d3a1ae-4b58-425e-9f18-01a5c86c0247")
+	)
+	(label "SWDEBUG"
+		(at 125.095 105.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "95b15627-a10a-4845-a4cf-d411df587f8f")
 	)
 	(label "SCL"
 		(at 179.705 130.81 0)
@@ -4097,6 +5605,16 @@
 		)
 		(uuid "b91628cd-8c68-414c-a67f-b4ea687a7947")
 	)
+	(label "PD5"
+		(at 128.27 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc5742ed-90cd-4688-9471-1a7a0d9bc581")
+	)
 	(label "SCL"
 		(at 198.12 43.18 0)
 		(effects
@@ -4118,7 +5636,7 @@
 		(uuid "d3386d84-d941-4475-a818-bbd6ec035787")
 	)
 	(label "RCLK"
-		(at 266.065 34.925 180)
+		(at 267.335 36.195 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4126,6 +5644,16 @@
 			(justify right bottom)
 		)
 		(uuid "d653be93-e175-4d2f-b828-334706d4302b")
+	)
+	(label "PD6"
+		(at 128.27 170.815 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9979caf-e530-46ba-b146-abcb41b7a0d6")
 	)
 	(label "R_RAW"
 		(at 272.415 143.51 180)
@@ -4178,8 +5706,86 @@
 		(uuid "fe888263-ece6-406e-ae0a-96edf11e29d0")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 133.35 175.895 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02c2224e-d00f-4e84-9cee-867f16213e6b")
+		(property "Reference" "#PWR08"
+			(at 133.35 182.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 180.975 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1ae842d-769d-46c5-b62f-d7d91cc9ec0b")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "JLCImport:SX2M32_768KM20F30TNN")
-		(at 241.3 33.655 0)
+		(at 242.57 34.925 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4190,7 +5796,7 @@
 		(fields_autoplaced yes)
 		(uuid "1400bed2-ffd3-492b-88d5-538153dfc629")
 		(property "Reference" "OSC1"
-			(at 241.3 24.765 0)
+			(at 242.57 26.035 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4200,7 +5806,7 @@
 			)
 		)
 		(property "Value" "SX2M32_768KM20F30TNN"
-			(at 241.3 27.305 0)
+			(at 242.57 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4210,7 +5816,7 @@
 			)
 		)
 		(property "Footprint" "easyeda2kicad:CRYSTAL-SMD_4P-L3.2-W2.5-BL"
-			(at 241.3 33.655 0)
+			(at 242.57 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4221,7 +5827,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2406051009_Shenzhen-SCTF-Elec-SX2M32-768KM20F30TNN_C2901603.pdf"
-			(at 241.3 33.655 0)
+			(at 242.57 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4232,7 +5838,7 @@
 			)
 		)
 		(property "Description" "-40℃~+85℃ 1.62V~3.63V 32.768kHz 90uA CMOS ±20ppm ±30ppm SMD2520-4P Crystal Oscillators ROHS"
-			(at 241.3 33.655 0)
+			(at 242.57 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4243,7 +5849,7 @@
 			)
 		)
 		(property "LCSC" "C2901603"
-			(at 241.3 33.655 0)
+			(at 242.57 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4254,7 +5860,7 @@
 			)
 		)
 		(property "Manufacturer" "Shenzhen SCTF Elec"
-			(at 241.3 33.655 0)
+			(at 242.57 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4265,7 +5871,7 @@
 			)
 		)
 		(property "Manufacturer Part" "SX2M32.768KM20F30TNN"
-			(at 241.3 33.655 0)
+			(at 242.57 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4276,7 +5882,7 @@
 			)
 		)
 		(property "LCSC Part" "C2901603"
-			(at 241.3 33.655 0)
+			(at 242.57 34.925 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4318,7 +5924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1584edd0-3b22-40c5-a18b-c8d5a39fc002")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 227.33 139.065 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4391,7 +5997,85 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "R7")
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 127 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1aaa160e-97ac-4c63-8b9f-a721c9b06c25")
+		(property "Reference" "#PWR039"
+			(at 127 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 127 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 127 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a71e93e9-e7b8-4967-a144-4cc536860ac6")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -4409,7 +6093,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b6544dd-cd85-458e-93da-eb118359bca5")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 271.78 98.425 0)
 			(hide yes)
 			(show_name no)
@@ -4469,7 +6153,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4487,7 +6171,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "202a15fb-6874-48b7-9732-f7efa9129a81")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 168.91 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -4547,7 +6231,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -4564,7 +6248,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21402d61-9d2c-485b-8c8c-bf6da9bd409a")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 217.805 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4637,7 +6321,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4655,7 +6339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24dffeea-3a5e-4274-87a5-b35243dc28a5")
-		(property "Reference" "C4"
+		(property "Reference" "C2"
 			(at 176.53 104.1462 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4730,7 +6414,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "C4")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4838,7 +6522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "289cde78-7c1b-483a-8c84-9fe47ec6101c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 203.2 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4898,7 +6582,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -4916,7 +6600,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c2467ae-777c-4752-bf02-df883212376c")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR034"
 			(at 273.05 160.655 0)
 			(hide yes)
 			(show_name no)
@@ -4976,7 +6660,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR010")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -4994,7 +6678,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e4304c5-23af-4f6a-abf5-bf8c65ce4758")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR016"
 			(at 193.675 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5054,7 +6738,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR02")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5164,7 +6848,7 @@
 		(dnp no)
 		(uuid "32174bdf-95f1-4f68-8be4-f922dd008a85")
 		(property "Reference" "FB1"
-			(at 172.72 90.805 90)
+			(at 172.72 91.44 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5253,7 +6937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "39609bae-2839-46b4-99ff-c6a9d1c879a7")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR025"
 			(at 230.505 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5313,7 +6997,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR020")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -5331,7 +7015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a5407ef-13c5-4220-a979-e3f6c78a8fbe")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 250.19 53.975 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5494,7 +7178,85 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "U3")
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 113.03 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "419a0878-e32c-4828-b9ef-4cb5dfe23f47")
+		(property "Reference" "#PWR04"
+			(at 113.03 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfe8399b-b0c9-45bd-944f-bfa50cea34f7")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5511,7 +7273,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43a43b32-7677-410b-8aab-d7b4e6092bb2")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 205.105 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5586,7 +7348,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5680,7 +7442,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "47387227-8311-4ee0-8d06-c9aad87513ff")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR031"
 			(at 269.875 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -5740,7 +7502,85 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR03")
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 123.19 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b76692c-332e-411c-878d-55a4011f2246")
+		(property "Reference" "#PWR05"
+			(at 123.19 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 123.19 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 123.19 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "83a1ea5b-2adb-4a94-8385-891f48226af5")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5758,7 +7598,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4de625ce-ef38-4559-9aae-ad3a180b8e16")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR030"
 			(at 269.875 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -5818,7 +7658,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR06")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -5836,7 +7676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4e67d5ad-6f4c-4624-b877-0fb0e65a07e7")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR024"
 			(at 229.235 108.585 0)
 			(hide yes)
 			(show_name no)
@@ -5896,7 +7736,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR026")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5904,7 +7744,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 220.345 32.385 0)
+		(at 221.615 33.655 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5914,8 +7754,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "517e22c1-0f40-4ac4-a87f-e81977cdeefd")
-		(property "Reference" "#PWR017"
-			(at 220.345 36.195 0)
+		(property "Reference" "#PWR019"
+			(at 221.615 37.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5926,7 +7766,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 220.345 27.305 0)
+			(at 221.615 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5936,7 +7776,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.345 32.385 0)
+			(at 221.615 33.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5947,7 +7787,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.345 32.385 0)
+			(at 221.615 33.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5958,7 +7798,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 220.345 32.385 0)
+			(at 221.615 33.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5974,7 +7814,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR017")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -5992,7 +7832,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55adcb99-9927-44c2-acce-3ba94c861535")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 170.815 140.9699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6067,7 +7907,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6084,7 +7924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "55c74378-71ba-44a3-87ba-c3392f489e21")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR036"
 			(at 276.225 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -6144,7 +7984,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR07")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -6161,7 +8001,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "579ff349-6671-4332-bf34-e1861dcec615")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 220.98 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6234,7 +8074,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6242,7 +8082,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 269.875 34.925 0)
+		(at 271.145 36.195 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6252,8 +8092,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "612be73c-c068-4748-a456-a846ff985e19")
-		(property "Reference" "C3"
-			(at 273.05 33.6612 0)
+		(property "Reference" "C6"
+			(at 274.32 34.9312 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6264,7 +8104,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 273.05 36.2012 0)
+			(at 274.32 37.4712 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6275,7 +8115,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 269.875 34.925 0)
+			(at 271.145 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6286,7 +8126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.875 34.925 0)
+			(at 271.145 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6297,7 +8137,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 269.875 34.925 0)
+			(at 271.145 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6308,7 +8148,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 269.875 34.925 0)
+			(at 271.145 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6327,7 +8167,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "C3")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -6344,7 +8184,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "656a31a5-dd36-4b79-908f-96013f3e096a")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 227.33 145.415 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6417,7 +8257,422 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "R8")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 130.81 152.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6a074ed2-46ef-42a0-ae4b-79eb78eba729")
+		(property "Reference" "SW3"
+			(at 130.81 147.955 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 130.81 147.955 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L4.2-W3.3-P2.15-LS5.1"
+			(at 130.81 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 130.81 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C455282"
+			(at 130.81 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b904429d-5b65-4465-8fcd-ea71dbb71015")
+		)
+		(pin "1"
+			(uuid "b4c6bb28-9c69-476c-879a-4d4a24f84bdc")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 172.085 65.405 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b7a1f79-b87c-490b-b32c-6368b0ca70a9")
+		(property "Reference" "#PWR011"
+			(at 172.085 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 172.085 60.325 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.085 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.085 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 172.085 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14ea9e63-c269-44df-8f1f-459789931af2")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 130.81 173.355 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6d6ba599-87b8-4f82-8766-136da92029d5")
+		(property "Reference" "SW4"
+			(at 130.81 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 130.81 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L4.2-W3.3-P2.15-LS5.1"
+			(at 130.81 173.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 173.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 130.81 173.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C455282"
+			(at 130.81 173.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a9e6abee-d219-452c-9a01-e1ee7a728610")
+		)
+		(pin "1"
+			(uuid "d7342664-9ddf-45da-98f0-418db79ccd66")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "SW4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 102.87 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "704914f7-2d89-4502-87f8-53e86e46653b")
+		(property "Reference" "#PWR02"
+			(at 102.87 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 102.87 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 102.87 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfca1f9c-b2a9-4fa7-b3a7-0239999b3761")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 191.77 80.645 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "735b81ac-8596-47b5-bf34-22f3a7d6239f")
+		(property "Reference" "#PWR014"
+			(at 191.77 86.995 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 188.595 83.185 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 191.77 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 191.77 80.645 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d8bde1aa-2950-4be0-aa48-017e1f5f427e")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -6435,7 +8690,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b472b1a-1d5f-4f79-a557-2edc38a9f59f")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 180.34 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6510,7 +8765,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6518,7 +8773,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 34.925 0)
+		(at 222.25 36.195 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6528,8 +8783,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "80848054-006b-4839-9e37-4383e52e699d")
-		(property "Reference" "#PWR015"
-			(at 220.98 41.275 0)
+		(property "Reference" "#PWR020"
+			(at 222.25 42.545 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6540,7 +8795,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 220.98 40.005 0)
+			(at 222.25 41.275 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6550,7 +8805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 34.925 0)
+			(at 222.25 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6561,7 +8816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 34.925 0)
+			(at 222.25 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6572,7 +8827,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 220.98 34.925 0)
+			(at 222.25 36.195 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6588,7 +8843,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR015")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6606,7 +8861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81b63741-ae10-4ca8-ba78-4c7b9a4dbfe9")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 250.825 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6769,7 +9024,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6786,7 +9041,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84ded1cc-6959-46cf-a83e-f6f7bfdf8256")
-		(property "Reference" "C9"
+		(property "Reference" "C7"
 			(at 273.685 88.265 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6861,7 +9116,85 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "C9")
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 123.19 165.735 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8554d21b-9f21-40fd-8e3a-3cd241270b71")
+		(property "Reference" "#PWR06"
+			(at 123.19 169.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 123.19 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 123.19 165.735 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07ea89c6-4899-4bd5-ad37-2f92b36f9992")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6879,7 +9212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "855d6a66-8ed1-436e-9ff4-4815f61b7db1")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR029"
 			(at 267.97 106.045 0)
 			(hide yes)
 			(show_name no)
@@ -6939,7 +9272,85 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR021")
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 178.435 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86ee211e-a12f-4152-b49c-602ef6749b9d")
+		(property "Reference" "#PWR03"
+			(at 111.76 184.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 183.515 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 111.76 178.435 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "848ac847-6c7a-4b32-b6c9-4cf9f86bdf58")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6957,7 +9368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "874511a9-a4a9-45d9-b5ac-d2612457111e")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR015"
 			(at 193.675 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7017,7 +9428,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR01")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -7035,7 +9446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87acd774-c34e-4f40-a7a7-9b30c69f2695")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR010"
 			(at 169.545 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7095,7 +9506,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR05")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -7242,7 +9653,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "93ac4336-29cf-4886-8ea7-e7968f55c262")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 232.41 100.965 0)
 			(hide yes)
 			(show_name no)
@@ -7302,7 +9713,99 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR025")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 123.19 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "99a32992-a308-4140-b060-00baedaa67f0")
+		(property "Reference" "R3"
+			(at 120.015 146.685 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 118.745 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25804"
+			(at 123.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "162f79f0-8421-4296-a9d9-72b599bf7271")
+		)
+		(pin "2"
+			(uuid "8bcc125a-0c90-4ff5-a497-3e0ce5f05ea9")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -7320,7 +9823,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b6ac940-af97-4ab8-b09f-646ed4eec797")
-		(property "Reference" "C7"
+		(property "Reference" "C5"
 			(at 227.33 98.425 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7395,7 +9898,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "C7")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -7413,7 +9916,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b7c7d6b-29de-4b07-89fd-4b88dbf8c8f5")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR035"
 			(at 274.955 88.265 0)
 			(hide yes)
 			(show_name no)
@@ -7473,7 +9976,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR024")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -7481,7 +9984,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 269.875 37.465 0)
+		(at 271.145 38.735 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7491,8 +9994,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2796ff3-7ae9-4295-8d98-c3ee0827c3c7")
-		(property "Reference" "#PWR016"
-			(at 269.875 43.815 0)
+		(property "Reference" "#PWR032"
+			(at 271.145 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7503,7 +10006,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 269.875 42.545 0)
+			(at 271.145 43.815 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7513,7 +10016,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 269.875 37.465 0)
+			(at 271.145 38.735 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7524,7 +10027,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 269.875 37.465 0)
+			(at 271.145 38.735 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7535,7 +10038,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 269.875 37.465 0)
+			(at 271.145 38.735 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7551,7 +10054,99 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR016")
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 102.87 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3c4dc88-3528-4944-ad93-07a63ad3bc8f")
+		(property "Reference" "R2"
+			(at 99.695 147.955 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 98.425 149.86 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.87 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 102.87 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25804"
+			(at 102.87 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "11e121ec-aff4-4745-8a49-b554634796c2")
+		)
+		(pin "2"
+			(uuid "f73a8f42-41f6-4939-a507-4c8302cd8633")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7569,7 +10164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a434a6a3-f44c-4180-8037-6670555c89de")
-		(property "Reference" "C2"
+		(property "Reference" "C9"
 			(at 276.225 150.5012 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7644,7 +10239,85 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "C2")
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 101.6 168.275 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a44d8148-62eb-4522-9a8d-c4d2cdab0c4d")
+		(property "Reference" "#PWR01"
+			(at 101.6 172.085 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 101.6 163.195 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 101.6 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35356124-3e6d-4cc1-87eb-2284b18017c4")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -7661,7 +10334,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3eb3334-6592-4afa-a97b-5405eaceb543")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 195.8183 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7804,7 +10477,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -7822,7 +10495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4ea4807-18f3-48dd-9300-dcd3180818b1")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR028"
 			(at 267.335 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7882,7 +10555,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR08")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7961,6 +10634,269 @@
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 110.49 153.67 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b87eb49c-0094-4f6d-81f4-d5ad4f33a2c6")
+		(property "Reference" "SW2"
+			(at 110.49 149.225 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 110.49 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L4.2-W3.3-P2.15-LS5.1"
+			(at 110.49 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 110.49 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C455282"
+			(at 110.49 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "08a0c376-44a5-4307-983d-b586d46ad79a")
+		)
+		(pin "1"
+			(uuid "5529d4d6-4ae3-4aa1-bed5-9790974209e6")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 110.49 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdd02d73-8232-4e06-8312-5a7cdc1daf9a")
+		(property "Reference" "J1"
+			(at 111.125 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Pin"
+			(at 111.125 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 110.49 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 110.49 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 110.49 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63024eee-c448-4382-aedc-c22845772ce3")
+		)
+		(pin "3"
+			(uuid "6403a634-06cc-4f7c-88a4-4b892a34f570")
+		)
+		(pin "2"
+			(uuid "98442148-08b2-4e5b-848f-e4e691b2a045")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bdef084b-a663-4cb9-8b63-31df8dd428b8")
+		(property "Reference" "#PWR07"
+			(at 133.35 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "58d9f4ff-6118-4a72-b093-346075bc8811")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -8058,7 +10994,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 262.255 32.385 0)
+		(at 263.525 33.655 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8068,8 +11004,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1fe83f0-4f2e-41c1-93b4-946b8e5b73a0")
-		(property "Reference" "#PWR018"
-			(at 262.255 36.195 0)
+		(property "Reference" "#PWR027"
+			(at 263.525 37.465 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8080,7 +11016,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 262.255 27.305 0)
+			(at 263.525 28.575 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8090,7 +11026,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 262.255 32.385 0)
+			(at 263.525 33.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8101,7 +11037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.255 32.385 0)
+			(at 263.525 33.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8112,7 +11048,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 262.255 32.385 0)
+			(at 263.525 33.655 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8128,7 +11064,223 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR018")
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push_45deg")
+		(at 109.22 175.895 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2bedc12-81bf-468c-8e6b-0f38ba1aadcd")
+		(property "Reference" "SW1"
+			(at 109.22 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push_45deg"
+			(at 109.22 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_4P-L4.2-W3.3-P2.15-LS5.1"
+			(at 109.22 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+			(at 109.22 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C455282"
+			(at 109.22 175.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3628d8cb-52aa-4749-a160-b085125e885b")
+		)
+		(pin "1"
+			(uuid "9fb8e444-89d2-400a-92f0-f2044063fe40")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:K3-2235S-F1")
+		(at 184.15 65.405 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c79cdadf-5cf1-4c55-bc08-21759c9200ad")
+		(property "Reference" "SW5"
+			(at 183.3244 53.975 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K3-2235S-F1"
+			(at 183.3244 56.515 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-SMD_MST22D18G2"
+			(at 184.15 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2108131830_Korean-Hroparts-Elec-K3-2235S-F1_C223858.pdf"
+			(at 184.15 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25℃~+80℃ 10000 times 3.5mm 3.5mm 300mA 6V 9mm Black DPDT Gull Wing Rectangular Columnar Surface Mount,Vertical SMD,9x3.5mm Slide Switches ROHS"
+			(at 184.15 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C223858"
+			(at 184.15 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Korean Hroparts Elec"
+			(at 184.15 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "K3-2235S-F1"
+			(at 184.15 65.405 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "73d1875b-d757-4a61-8337-c8c5d9dd9e34")
+		)
+		(pin "6"
+			(uuid "d9dd6272-1a05-4231-aad7-136bd5782ed6")
+		)
+		(pin "5"
+			(uuid "c748956e-f3f9-428d-98fc-0e7b6cdda942")
+		)
+		(pin "4"
+			(uuid "2d1106b7-17bf-4ef8-ac46-c3040a59d5c5")
+		)
+		(pin "3"
+			(uuid "19c13bf9-699d-404e-9d2a-eff5773bee46")
+		)
+		(pin "2"
+			(uuid "8a784765-9fcd-4db0-a1cf-f5947378b062")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -8145,7 +11297,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d162906f-b6f3-4cda-81a0-7c818b558e08")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR021"
 			(at 225.425 70.485 0)
 			(hide yes)
 			(show_name no)
@@ -8205,7 +11357,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR023")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8223,7 +11375,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d99ff13a-0083-45a9-afbf-353f33326117")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 203.2 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -8283,7 +11435,99 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR013")
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 123.19 168.275 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e18d7819-31bc-4ae7-ac77-2280dd37c82d")
+		(property "Reference" "R4"
+			(at 120.015 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 118.745 169.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 123.19 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 123.19 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25804"
+			(at 123.19 168.275 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f40445a2-e569-4f1c-be37-49189d43ff20")
+		)
+		(pin "2"
+			(uuid "36548fe9-de8c-4d55-8529-57015f13e233")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8300,7 +11544,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e56a4f5f-d949-43c5-b883-262f1e48393a")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 205.105 26.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8375,7 +11619,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -8392,7 +11636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7ba3ae1-db85-4b8d-a99d-79f261fa0f5c")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR023"
 			(at 227.33 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8452,7 +11696,121 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR04")
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JLCImport:MY-2032-12")
+		(at 191.77 75.565 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8441d23-795e-4248-85b0-1a02d60e18a5")
+		(property "Reference" "BT1"
+			(at 194.945 74.295 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MY-2032-12"
+			(at 194.945 76.835 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:BAT-SMD_MY-2032-12"
+			(at 191.77 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2012181809_MYOUNG-MY-2032-12_C964833.pdf"
+			(at 191.77 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "-25~85℃ Battery buckle CR2032 Nickel plated Phosphor bronze - ROHS"
+			(at 191.77 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C964833"
+			(at 191.77 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "MYOUNG"
+			(at 191.77 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "MY-2032-12"
+			(at 191.77 75.565 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b6774ece-96c0-42f3-bf30-0a6404e653fe")
+		)
+		(pin "1"
+			(uuid "1a141dff-4faa-4ea4-90b9-0f00102c3faa")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
@@ -8470,7 +11828,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ea8b08a8-ef79-4c67-a492-9edeae06b46f")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR013"
 			(at 186.69 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -8530,7 +11888,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR019")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -8629,6 +11987,176 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 101.6 170.815 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f065def1-c774-4298-bcab-afa523d4fbc4")
+		(property "Reference" "R1"
+			(at 98.425 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 97.155 172.085 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 101.6 170.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 170.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 101.6 170.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C25804"
+			(at 101.6 170.815 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ed9a5e54-dcdc-4e3b-abe7-f8e0652e55e6")
+		)
+		(pin "2"
+			(uuid "b4e203c6-eb2e-4b14-b1f4-3190af826d67")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f49d3748-0cce-4124-a994-be5e6185f7e6")
+		(property "Reference" "#PWR038"
+			(at 115.57 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "baf6f2ef-3409-46b9-921e-4d1d904d8330")
+		)
+		(instances
+			(project "pocketradio"
+				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 276.225 149.225 0)
 		(unit 1)
@@ -8639,7 +12167,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa5ece1e-0e9c-4cc0-9803-3f1745fd9242")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR037"
 			(at 276.225 153.035 0)
 			(hide yes)
 			(show_name no)
@@ -8699,7 +12227,7 @@
 		(instances
 			(project "pocketradio"
 				(path "/65af2ef2-b203-4655-89f1-97b5aebc6978"
-					(reference "#PWR09")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
