@@ -11,6 +11,10 @@ I love radio, and I wanted to make the tiniest keychain radio possible. I also t
 ## How to use
 First, connect a pair of headphones or an aux cable, this is your antenna. There are 4 buttons on the device, a volume up/down, and a frequency up/down. First, set the volume to a confortable level, and then use the frequency up/down buttons to step up and down 0.1MHz until you find a station. Then, enjoy listening to the station!
 
+## Schematic and PCB
+https://kicanvas.org/?repo=https://github.com/alx-alexpark/radio-keychain
+
+## Zine
 <img width="420" height="595" alt="A5 - 1" src="https://github.com/user-attachments/assets/6421719e-cac6-41cb-b35e-82c9e8a307f3" />
 
 
