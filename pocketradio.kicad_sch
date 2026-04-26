@@ -4517,6 +4517,18 @@
 		(uuid "26c2c028-a461-4c56-b3a7-9c17df42f706")
 	)
 	(rectangle
+		(start 121.285 113.665)
+		(end 154.94 136.525)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3636bb41-b873-468e-a8d6-fbcd40ebbefc")
+	)
+	(rectangle
 		(start 219.71 113.665)
 		(end 281.305 161.29)
 		(stroke
@@ -5056,7 +5068,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.665 97.155) (xy 113.03 97.155)
+			(xy 146.05 126.365) (xy 145.415 126.365)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +5418,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.045 97.155) (xy 107.95 97.155)
+			(xy 138.43 126.365) (xy 140.335 126.365)
 		)
 		(stroke
 			(width 0)
@@ -6588,7 +6600,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 113.665 97.155 0)
+		(at 146.05 126.365 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6599,7 +6611,7 @@
 		(fields_autoplaced yes)
 		(uuid "21ca1370-da40-4aaa-9528-64d293090dfb")
 		(property "Reference" "#PWR040"
-			(at 113.665 103.505 0)
+			(at 146.05 132.715 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6610,7 +6622,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 113.665 101.6 0)
+			(at 146.05 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6620,7 +6632,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 113.665 97.155 0)
+			(at 146.05 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6631,7 +6643,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.665 97.155 0)
+			(at 146.05 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6642,7 +6654,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 113.665 97.155 0)
+			(at 146.05 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8081,7 +8093,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 110.49 97.155 90)
+		(at 142.875 126.365 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8092,7 +8104,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f438809-3185-4cb1-a59d-e338a69e82ec")
 		(property "Reference" "R11"
-			(at 110.49 91.44 90)
+			(at 142.875 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8102,7 +8114,7 @@
 			)
 		)
 		(property "Value" "330"
-			(at 110.49 93.98 90)
+			(at 142.875 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8112,7 +8124,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 110.49 97.155 0)
+			(at 142.875 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8123,7 +8135,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 97.155 0)
+			(at 142.875 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8134,7 +8146,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 110.49 97.155 0)
+			(at 142.875 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8145,7 +8157,7 @@
 			)
 		)
 		(property "LCSC Part" "C25104"
-			(at 110.49 97.155 0)
+			(at 142.875 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9942,7 +9954,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 102.235 97.155 180)
+		(at 134.62 126.365 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9953,7 +9965,7 @@
 		(fields_autoplaced yes)
 		(uuid "8870653b-ea2b-4151-a845-8a046f03ec30")
 		(property "Reference" "D1"
-			(at 103.8225 90.17 0)
+			(at 136.2075 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9963,7 +9975,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 103.8225 92.71 0)
+			(at 136.2075 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9973,7 +9985,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 102.235 97.155 0)
+			(at 134.62 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9984,7 +9996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.235 97.155 0)
+			(at 134.62 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9995,7 +10007,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 102.235 97.155 0)
+			(at 134.62 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10006,7 +10018,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 102.235 97.155 0)
+			(at 134.62 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10017,7 +10029,7 @@
 			)
 		)
 		(property "LCSC Part" "C2286"
-			(at 102.235 97.155 0)
+			(at 134.62 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12765,7 +12777,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 98.425 97.155 0)
+		(at 130.81 126.365 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12776,7 +12788,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc0990f6-e69d-4313-a635-862069bdfecd")
 		(property "Reference" "#PWR041"
-			(at 98.425 100.965 0)
+			(at 130.81 130.175 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12787,7 +12799,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 98.425 92.71 0)
+			(at 130.81 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12797,7 +12809,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 98.425 97.155 0)
+			(at 130.81 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12808,7 +12820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 98.425 97.155 0)
+			(at 130.81 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12819,7 +12831,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 98.425 97.155 0)
+			(at 130.81 126.365 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
